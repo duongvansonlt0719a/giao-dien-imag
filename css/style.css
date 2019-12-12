@@ -8,24 +8,62 @@ body{
 
 }
 .tieude{
-		width: 1000px;
+		width: 1200px;
 }
 
-.luachon ul:hover{
-	background-color: black;
-	
+.luachon{
+	padding: 0px;
+	width: 1200px;
 }
+.luachon ul{
+	background: #87e0fd; 
+	background: -moz-linear-gradient(left, #87e0fd 0%, #53cbf1 33%, #076bef 100%); 
+	background: -webkit-linear-gradient(left, #87e0fd 0%,#53cbf1 33%,#076bef 100%); 
+	background: linear-gradient(to right, #87e0fd 0%,#53cbf1 33%,#076bef 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#076bef',GradientType=1 ); 
+	list-style-type: none;
+	text-align: center;
+	-webkit-box-shadow: 0 5px 0 0 #4F3636;
+	box-shadow: 0 5px 0 0 #4F3636;
 
-.home{
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+}
+.luachon li {
+	margin-left: 0 !important;
 	float: left;
-	border: 1px solid black;
-	background-color: blue;
-	padding: 15px;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+}
+.luachon a{
+	text-decoration: none;
 	color: white;
+	display: block;
+	border-left: 1px solid white;
+
+}
+.luachon a:hover{
+	color: white;
+	background-color: black;
 }
 .khung1{
 	border-top: 6px solid cyan;
 	width: 761px;
+	height: 380px;
+	/*float: left;*/
+	padding-bottom: 20px;
+
+	box-shadow:
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	-webkit-box-shadow: 
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	margin-bottom: 15px;
 
 }
 .khung1 .khunganhbe{
@@ -54,22 +92,88 @@ body{
 .khungto{
 	float: left;
 	-webkit-box-shadow: 1px 10px 2px 1px ##ccc;
-box-shadow: 1px 10px 2px 1px ##ccc;
+	box-shadow: 1px 10px 2px 1px ##ccc;
 }
 .categoryname{
 	border-top: 5px solid cyan;
 }
+.cackhung3{
+	width: 100%;
+	height: 150px;
+
+}
+.cackhung2{
+	width: 100%;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+
+	/*border-top: 1px solid #e1e3e6;*/
+	/*float: left;*/
+}
+.categoryname1{
+	border-top: 5px solid cyan;
+	width: 100%;
+	height: 150px;
+	box-shadow:
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	-webkit-box-shadow: 
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	margin-bottom: 15px;
+}
+.categoryname3{
+		width: 100%;
+	height: 308px;
+	/*float: left;*/
+	padding-bottom: 20px;
+	box-shadow:
+	inset 0 5px 0 0 #00ffff,
+	0 2px 7px 1px #C7EDE4;
+	-webkit-box-shadow: 
+	inset 0 5px 0 0 #00ffff,
+	0 2px 7px 1px #C7EDE4;
+	margin-bottom: 15px;
+}
+.categoryname4{
+	width: 100%;
+	height: 33px;
+	/*float: left;*/
+	padding-bottom: 20px;
+	box-shadow:
+	inset 0 5px 0 0 #3EA8E6,
+	0 2px 7px 1px #C7EDE4;
+	-webkit-box-shadow: 
+	inset 0 5px 0 0 #00ffff,
+	0 2px 7px 1px #C7EDE4;
+	margin-bottom: 15px;
+}
+.categoryname{
+	width: 100%;
+	height: 305px;
+	/*float: left;*/
+	padding-bottom: 20px;
+
+	box-shadow:
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	-webkit-box-shadow: 
+	/*inset 0 5px 0 0 #3EA8E6,*/
+	0 2px 7px 1px #C7EDE4;
+	margin-bottom: 15px;
+}
 .khungto .categoryname .cackhung1 img{
 	float: left;
 }
-.cackhung1{
-	height: 80px;
-}
+
 .cate{
 	border: 1px solid black;
 	padding: 10px;
 
 }
+
 .hopemail{
 	height: 40px;
 	width: 161px;
@@ -92,4 +196,33 @@ input[type="button"]{
 }
 .khungduoi{
 	border-top: 1px solid black;
+}
+.clr{
+	clear: both;
+
+}
+.khungden1{
+	width: 270px;
+	margin-right: 15px;
+	float: left;
+	/*background-color: green;*/	
+}
+.cackhung1{
+	width: 250px;
+}
+
+.khung2 .cackhung1 img{
+	float: left;
+}
+.khungden{
+	background-color: #252525;
+	color: white;
+}
+.nam{
+	float: left;
+	width: 50%;
+}
+.dongcuoi{
+	background-color: #333333;
+	color: white;
 }

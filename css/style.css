@@ -1,0 +1,95 @@
+body{
+	background-color: #eee;
+}
+.container{
+	margin: auto;
+	width: 1200px;
+	background-color: white;
+
+}
+.tieude{
+		width: 1000px;
+}
+
+.luachon ul:hover{
+	background-color: black;
+	
+}
+
+.home{
+	float: left;
+	border: 1px solid black;
+	background-color: blue;
+	padding: 15px;
+	color: white;
+}
+.khung1{
+	border-top: 6px solid cyan;
+	width: 761px;
+
+}
+.khung1 .khunganhbe{
+	border: 1px solid #ccc;
+	height: 200px;
+	width: 761px;
+}
+.khungtrai{
+	width: 761px;
+	height: 200px;
+
+}
+.khung1 .khunganhbe .cackhung img{
+	float: left;
+	margin-bottom: -7px;
+}
+.khung1 .khunganhbe{
+	float: left;
+	height: 80px;
+}
+.khung1 .khunganhbe .cackhung{
+	height: 80px;
+	width: 380.5px;
+	float: left;
+}
+.khungto{
+	float: left;
+	-webkit-box-shadow: 1px 10px 2px 1px ##ccc;
+box-shadow: 1px 10px 2px 1px ##ccc;
+}
+.categoryname{
+	border-top: 5px solid cyan;
+}
+.khungto .categoryname .cackhung1 img{
+	float: left;
+}
+.cackhung1{
+	height: 80px;
+}
+.cate{
+	border: 1px solid black;
+	padding: 10px;
+
+}
+.hopemail{
+	height: 40px;
+	width: 161px;
+	margin: auto;
+}
+.hopemail1{
+	width: 86px;
+	height: 30px;
+	margin: auto;
+}
+input[type="text"]{
+	transform: scale(1.5);
+}
+input[type="button"]{
+	transform: scale(1);
+}
+.cate{
+	margin: 0px;
+	padding: 10px;
+}
+.khungduoi{
+	border-top: 1px solid black;
+}
